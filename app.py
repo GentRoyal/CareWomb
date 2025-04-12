@@ -31,7 +31,7 @@ st.set_page_config(
 def load_resources():
     try:
         with gzip.open("best_overall_model.pkl.gz", "rb") as file:
-            model = pkl.load(file)
+            model = pickle.load(file)
         with open('scalar.pkl', 'rb') as file:
             scaler = pickle.load(file)
         with open('column_names.pkl', 'rb') as file:
