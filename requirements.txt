@@ -1,7 +1,5 @@
-import pickle
+streamlit
+pandas
+numpy
+scikit-learn
 plotly
-plotly
-json
-gzip
-time
-sklearn
