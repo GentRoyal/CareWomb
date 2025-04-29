@@ -1,0 +1,14 @@
+# Ignore Jupyter notebooks
+*.ipynb
+
+# Ignore CSV files
+*.csv
+
+# Ignore Dockerfile if not using Docker yet
+Dockerfile
+
+# Ignore everything except what we want
+!app.py
+!requirements.txt
+!*.pkl
+!*.pkl.gz
